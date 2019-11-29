@@ -1,0 +1,91 @@
+body {
+	background-image: url(images/lemon-pattern.jpg);
+	padding: 5%;
+}
+
+h1 {
+	margin-top: 0;
+	font-family: Bebas Neue, fantasy;
+	font-size: 5em;
+	line-height: 70px;
+}
+
+aside {
+	font-size: 15px;
+	margin-left: 10px;
+	margin-top: -25px;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	margin-bottom: 5px;
+}
+
+nav ul a {
+	text-decoration: none;
+	font-family: Tahoma, sans-serif;
+}
+
+#contents a:hover {
+	text-decoration: underline;
+	color: #ffd025;
+}
+
+header, footer {
+	margin: none;
+	background-color: #fff;
+	padding: 5%;
+}
+
+footer p {
+	text-align: center;
+}
+
+main {
+	background-color: #00cccc;
+	padding: 5%;
+}
+
+.subtitles {
+	font-family: Georgia, serif;
+}
+main p, footer p, aside {
+	font-family: Roboto, Calibri, sans-serif;
+}
+
+main article {
+	width: 85%;
+}
+main article p {
+	margin-left: 25px;
+	line-height: 25px;
+}
+
+main article figure {
+	padding: 15px;
+	background-color: gainsboro;
+	border-radius: 5px;
+}
+
+main article img, main article figure {
+	display: block;
+	margin: 0 auto;
+	max-width: 500px;
+	margin-bottom: 45px;
+	margin-top: 45px;
+}
+
+main article figure img, main article img {
+	max-width: 80%;
+}
+
+main article figcaption {
+	margin-top: 20px;
+	text-align: center;
+	font-family: Verdana, sans-serif;
+	color: #696969;
+	font-size: 12px;
+}
